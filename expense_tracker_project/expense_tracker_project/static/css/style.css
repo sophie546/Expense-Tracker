@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a1a; /* dark background */
+    color: #e0e0e0; /* light gray text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #2b2b2b; /* dark gray container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #b22222; /* maroon heading */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    color: #e0e0e0;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background: #1e1e1e;
+    color: #e0e0e0;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #b22222; /* maroon focus */
+    outline: none;
+}
+
+small {
+    display: block;
+    color: #aaa;
+    font-size: 12px;
+    margin-top: 3px;
+    text-align: left;
+}
+
+.error {
+    color: #ff4d4d;
+    font-size: 13px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+button {
+    margin-top: 20px;
+    background: #b22222; /* maroon button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #8b1a1a; /* darker maroon hover */
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #b22222;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff4d4d;
+}
+
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #e0e0e0;
+}
+
+.expense-table th,
+.expense-table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
+.expense-table th {
+    background: #b22222; /* maroon header */
+    color: white;
+}
+
+.expense-table tr:nth-child(even) {
+    background: #242424;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background: #b22222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #8b1a1a;
+}
+
+.delete-btn {
+    color: #ff4d4d;
+    text-decoration: none;
+}
+
+.delete-btn:hover {
+    text-decoration: underline;
+}
+
+
+also this one just hold it
